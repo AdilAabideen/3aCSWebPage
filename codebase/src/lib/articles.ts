@@ -1,7 +1,10 @@
+import article_1 from '../md/article_1.md?raw'
+
+
 export const articles = [
     {
         title: "AGI: A Powerful Goal, but Should It Be the Priority?",
-        content: 'article_1.md',
+        content: article_1,
         author: "Adil Aabideen",
         authorImage: "/images/adilProfile.jpeg",
         authorLink: "https://linkedin.com/in/adil-aabideen",

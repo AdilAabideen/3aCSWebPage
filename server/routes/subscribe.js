@@ -25,7 +25,7 @@ router.post('/subscribe', async (req, res) => {
             res.status(200).json({ message: 'Successfully subscribed!' });
         })
         .catch((error) => {
-            console.log(process.env.MAILER_LITE_API_KEY);
+            console.log(error);
             console.error('MailerLite error:');
             res.status(500).json({ message: 'Subscription failed.' });
         })

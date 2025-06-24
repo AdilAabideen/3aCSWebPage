@@ -1,16 +1,9 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
-import content1 from '../md/article_1.md?raw'
 
 export default function ArticleViewer({content}) {
-    const [contentArticle, setContentArticles] = useState('')
 
-    useEffect(() => {
-        import(/* @vite-ignore */ `../md/${content.content}?raw`).then((md) => {
-            setContentArticles(md.default);
-          });
-    }, [content.content])
+
 
     return (
         <div className='bg-inherit max-w-6xl mx-auto flex flex-col gap-6 sm:gap-8 md:gap-12 items-center justify-center my-6 sm:my-8 md:my-10 py-4 px-4 sm:px-6'>
@@ -68,7 +61,7 @@ export default function ArticleViewer({content}) {
                             th: ({ node, ...props }) => <th className="border border-gray-300 px-2 sm:px-3 py-2 text-left font-medium" {...props} />,
                             td: ({ node, ...props }) => <td className="border border-gray-300 px-2 sm:px-3 py-2" {...props} />,
                           }}
-                    >{contentArticle}</ReactMarkdown>
+                    >{content.content}</ReactMarkdown>
                 </div>
 
                 
