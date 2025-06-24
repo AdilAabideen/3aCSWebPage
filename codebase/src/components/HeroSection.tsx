@@ -48,7 +48,7 @@ const HeroSection = () => {
     setIsSubscribing(true);
     try {
       console.log('Subscribing to newsletter...');
-    const response = await fetch(`http://localhost:3000/api/subscribe`, {
+    const response = await fetch(`/api/subscribe`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
