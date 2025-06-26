@@ -35,8 +35,9 @@ const About = () => {
               <div 
                 key={index}
                 onClick={() => navigate(`/article/${index}`)}
-                className="p-6 m-0 rounded-xl border border-border bg-background/80 backdrop-blur-sm hover:border-border/60 transition-all duration-300 hover:scale-105 cursor-pointer"
+                className="p-6 m-0 rounded-xl border border-border bg-background/80 backdrop-blur-sm hover:border-border/60 transition-all duration-300 hover:scale-105 cursor-pointer flex flex-col justify-between"
               >
+                <div>
                 <div className="mb-6">
                   <h2 className="text-xl md:text-2xl font-medium text-foreground">{article.title}</h2>
                   <div className="flex flex-row text-sm text-muted-foreground gap-2 items-center">
@@ -46,6 +47,7 @@ const About = () => {
                   </div>
                 </div>
                 <p className="text-lg mb-8 text-foreground/90 italic">"{article.cta}"</p>
+                </div>
                 <div className='flex flex-row w-full justify-between items-center'>
                   <div className="flex items-center gap-4">
                     <div className={`h-12 w-12 rounded-full bg-muted`}>

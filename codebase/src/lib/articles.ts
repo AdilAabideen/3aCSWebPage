@@ -1,5 +1,6 @@
 import article_1 from '../md/article_1.md?raw'
-
+import article_2 from '../md/article_2.md?raw'
+import article_3 from '../md/article_3.md?raw'
 
 export const articles = [
     {
@@ -14,5 +15,31 @@ export const articles = [
         imageAlt: "Sam Altman",
         cta: 'Explore the real question behind AI’s biggest ambition. Should we chase AGI—or focus on transforming the world with the AI we already have?',
         
-    }
+    },
+    {
+        title: "Linear Regression: Single, Multi, Polynomial and Overfitting",
+        content: article_2,
+        author: "Adil Aabideen",
+        authorImage: "/images/adilProfile.jpeg",
+        authorLink: "https://linkedin.com/in/adil-aabideen",
+        authorTitle: "Lead Writer",
+        tags: ["AI", "AGI", "Narrow AI", "Polynomial", "Linear Regression", "Overfitting"],
+        image: "https://img.freepik.com/free-vector/hand-drawn-scientific-formulas-chalkboard_23-2148496321.jpg?semt=ais_hybrid&w=740",
+        imageAlt: " Linear Regression",
+        cta: "Learn Linear Regression from the ground up — math, code, and intuition, all in one guide.",
+        
+    },
+    {
+        title: "Predicting Survival on the Titanic: A Machine Learning Journey from Scratch to Deep Learning",
+        content: article_3,
+        author: "Adil Aabideen",
+        authorImage: "/images/adilProfile.jpeg",
+        authorLink: "https://linkedin.com/in/adil-aabideen",
+        authorTitle: "Lead Writer",
+        tags: ["AI", "AGI", "Narrow AI", "Decision Trees", "Logistic Regression", "Overfitting", "Titanic", "Neural Networks"],
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RMS_Titanic_3_%28cropped_to_ship%29.jpg/330px-RMS_Titanic_3_%28cropped_to_ship%29.jpg",
+        imageAlt: "Sam Linear Regression",
+        cta: 'Explore survival patterns from the Titanic disaster using machine learning — from raw data to neural networks. Follow along and build your own predictive model!',
+        
+    },
 ]
