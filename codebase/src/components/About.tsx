@@ -31,10 +31,10 @@ const About = () => {
                 </h2>
             </div>
             <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {articles.map((article, index) => (
+            {articles.filter(article => article.priority === 0).map((article, index) => (
               <div 
                 key={index}
-                onClick={() => navigate(`/article/${index}`)}
+                onClick={() => navigate(`/article/${article.index}`)}
                 className="p-6 m-0 rounded-xl border border-border bg-background/80 backdrop-blur-sm hover:border-border/60 transition-all duration-300 hover:scale-105 cursor-pointer flex flex-col justify-between"
               >
                 <div>

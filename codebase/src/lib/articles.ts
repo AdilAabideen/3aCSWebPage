@@ -1,6 +1,7 @@
 import article_1 from '../md/article_1.md?raw'
 import article_2 from '../md/article_2.md?raw'
 import article_3 from '../md/article_3.md?raw'
+import article_4 from '../md/article_4.md?raw'
 
 export const articles = [
     {
@@ -14,7 +15,8 @@ export const articles = [
         image: "https://www.investopedia.com/thmb/iUfEp6JYwwtQhjlXfbs9KAOoGH4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/INV_SamAltman_GettyImages-2153474303-85e8dafc100b40f586c3ef573ee59b00.jpg",
         imageAlt: "Sam Altman",
         cta: 'Explore the real question behind AI’s biggest ambition. Should we chase AGI—or focus on transforming the world with the AI we already have?',
-        
+        priority: 0,
+        index: 0,
     },
     {
         title: "Linear Regression: Single, Multi, Polynomial and Overfitting",
@@ -27,7 +29,8 @@ export const articles = [
         image: "https://img.freepik.com/free-vector/hand-drawn-scientific-formulas-chalkboard_23-2148496321.jpg?semt=ais_hybrid&w=740",
         imageAlt: " Linear Regression",
         cta: "Learn Linear Regression from the ground up — math, code, and intuition, all in one guide.",
-        
+        priority: 1,
+        index: 1,
     },
     {
         title: "Predicting Survival on the Titanic: A Machine Learning Journey from Scratch to Deep Learning",
@@ -40,6 +43,21 @@ export const articles = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RMS_Titanic_3_%28cropped_to_ship%29.jpg/330px-RMS_Titanic_3_%28cropped_to_ship%29.jpg",
         imageAlt: "Sam Linear Regression",
         cta: 'Explore survival patterns from the Titanic disaster using machine learning — from raw data to neural networks. Follow along and build your own predictive model!',
-        
+        priority: 0,
+        index: 2,
     },
+    {
+        title: "Bending Spoons: Europe’s Unconventional Tech Unicorn",
+        content: article_4,
+        author: "Adil Aabideen",
+        authorImage: "/images/adilProfile.jpeg",
+        authorLink: "https://linkedin.com/in/adil-aabideen",
+        authorTitle: "Lead Writer",
+        tags: ["Europe", "Tech", "Unicorn", "Bending Spoons", "Acquisitions", "Scaling", "IPO", "Milan"],
+        image: "https://cdn.prod.website-files.com/63eccec0440983539b09e569/671fd61940fcaa902c5c63a6_-1x-1.webp",
+        imageAlt: "Bending Spoons",
+        cta: 'Discover how a Milan-based startup quietly built a global tech empire—without venture capital. Bending Spoons is rewriting the rules of European innovation.',
+        priority: 0,
+        index: 3,
+    }
 ]
