@@ -43,7 +43,7 @@ export const articles = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/RMS_Titanic_3_%28cropped_to_ship%29.jpg/330px-RMS_Titanic_3_%28cropped_to_ship%29.jpg",
         imageAlt: "Sam Linear Regression",
         cta: 'Explore survival patterns from the Titanic disaster using machine learning — from raw data to neural networks. Follow along and build your own predictive model!',
-        priority: 0,
+        priority: 1,
         index: 2,
     },
     {
@@ -59,5 +59,19 @@ export const articles = [
         cta: 'Discover how a Milan-based startup quietly built a global tech empire—without venture capital. Bending Spoons is rewriting the rules of European innovation.',
         priority: 0,
         index: 3,
+    },
+    {
+        title: "Is Acquisition the new Formula for Success?",
+        content: article_4,
+        author: "Adil Aabideen",
+        authorImage: "/images/adilProfile.jpeg",
+        authorLink: "https://linkedin.com/in/adil-aabideen",
+        authorTitle: "Lead Writer",
+        tags: ["Europe", "Tech", "Unicorn", "Bending Spoons", "Acquisitions", "Scaling", "IPO", "Milan"],
+        image: "https://images.ctfassets.net/c0ooum8vvmnd/5TIFerUE1uM3FED5CvtICg/cfe3995937aec0de180740b7ea9b9ec1/02.png?fm=webp&w=3840&q=75",
+        imageAlt: "Bending Spoons",
+        cta: 'A Deep Dive into the Economics Behind Bending Spoons’ Billion-Euro Playbook.',
+        priority: 0,
+        index: 4,
     }
 ]
