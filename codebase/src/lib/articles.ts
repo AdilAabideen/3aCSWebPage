@@ -2,7 +2,7 @@ import article_1 from '../md/article_1.md?raw'
 import article_2 from '../md/article_2.md?raw'
 import article_3 from '../md/article_3.md?raw'
 import article_4 from '../md/article_4.md?raw'
-
+import article_5 from '../md/article_5.md?raw'
 export const articles = [
     {
         title: "AGI: A Powerful Goal, but Should It Be the Priority?",
@@ -62,7 +62,7 @@ export const articles = [
     },
     {
         title: "Is Acquisition the new Formula for Success?",
-        content: article_4,
+        content: article_5,
         author: "Adil Aabideen",
         authorImage: "/images/adilProfile.jpeg",
         authorLink: "https://linkedin.com/in/adil-aabideen",
